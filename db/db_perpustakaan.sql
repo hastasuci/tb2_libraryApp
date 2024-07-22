@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 17, 2024 at 07:55 AM
+-- Generation Time: Jul 14, 2024 at 12:35 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -42,9 +42,9 @@ CREATE TABLE `buku` (
 --
 
 INSERT INTO `buku` (`id`, `judul`, `penulis`, `penerbit`, `tahun_terbit`, `konten`, `iktisar`) VALUES
-(1, 'Belajar SQL dengan Mudah', 'Andi Saputra', 'Penerbit XYZ', 2023, '[\"Pendahuluan\", \"Bab 1: Dasar-Dasar SQL\", \"Bab 2: Perintah DML\", \"Bab 3: Perintah DDL\", \"Kesimpulan\"]', 'Buku ini menjelaskan dasar-dasar SQL dan cara penggunaannya dengan contoh yang mudah dipahami.'),
-(2, 'Panduan Pemrograman Python', 'Budi Santoso', 'Penerbit ABC', 2022, '[\"Bab 1: Pengantar Python\", \"Bab 2: Tipe Data\", \"Bab 3: Kontrol Alur\", \"Bab 4: Fungsi\", \"Bab 5: Modul dan Paket\", \"Bab 6: OOP\"]', 'Buku ini memberikan panduan lengkap tentang pemrograman Python, mulai dari dasar hingga konsep OOP, disertai dengan contoh-contoh kode.'),
-(3, 'Algoritma dan Struktur Data', 'Citra Dewi', 'Penerbit DEF', 2021, '[\"Pendahuluan\", \"Bab 1: Algoritma\", \"Bab 2: Struktur Data\", \"Bab 3: Array\", \"Bab 4: Linked List\", \"Bab 5: Stack dan Queue\", \"Bab 6: Tree\", \"Bab 7: Graph\"]', 'Buku ini membahas berbagai algoritma dan struktur data yang umum digunakan dalam pemrograman, dengan penjelasan dan contoh yang detail.');
+(1, 'SQL for Beginner', 'Dwi Nugroho', 'Penerbit Erlangga', 2023, '[\"Pendahuluan\", \"Bab 1: Dasar-Dasar SQL\", \"Bab 2: Perintah DML\", \"Bab 3: Perintah DDL\", \"Kesimpulan\"]', 'Buku ini menjelaskan dasar-dasar SQL dan cara penggunaannya dengan contoh yang mudah dipahami.'),
+(2, 'Basic Python Programming', 'Alamsyah', 'Penerbit Hikari', 2022, '[\"Bab 1: Pengantar Python\", \"Bab 2: Tipe Data\", \"Bab 3: Kontrol Alur\", \"Bab 4: Fungsi\", \"Bab 5: Modul dan Paket\", \"Bab 6: OOP\"]', 'Buku ini memberikan panduan lengkap tentang pemrograman Python, mulai dari dasar hingga konsep OOP, disertai dengan contoh-contoh kode.'),
+(3, 'Data Structure', 'Susilowati', 'Penerbit Gajayana', 2021, '[\"Pendahuluan\", \"Bab 1: Algoritma\", \"Bab 2: Struktur Data\", \"Bab 3: Array\", \"Bab 4: Linked List\", \"Bab 5: Stack dan Queue\", \"Bab 6: Tree\", \"Bab 7: Graph\"]', 'Buku ini membahas berbagai algoritma dan struktur data yang umum digunakan dalam pemrograman, dengan penjelasan dan contoh yang detail.');
 
 --
 -- Indexes for dumped tables
